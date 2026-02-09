@@ -1,4 +1,4 @@
-[
+const rowData = [
   {
     "id": 1,
     "property_type": "house",
@@ -12999,4 +12999,195 @@
     "listing_date": "1/17/2022",
     "agent_name": "Sheena Comizzoli"
   }
-]
+];
+
+const colomunData = [
+  { field: "id", headerName: "ID", width: 70 },
+  { field: "property_type", headerName: "Type", width: 120 },
+  { field: "square_feet", headerName: "Sq Ft", width: 100 },
+  { field: "bedrooms", headerName: "Beds", width: 90 },
+  { field: "bathrooms", headerName: "Baths", width: 90 },
+  { field: "price", headerName: "Price", width: 120 },
+  { field: "year_built", headerName: "Year Built", width: 110 },
+  { field: "neighborhood", headerName: "Neighborhood", width: 130 },
+  { field: "garage_spaces", headerName: "Garage", width: 90 },
+  { field: "agent_name", headerName: "Agent", width: 160 },
+];
+
+const listData = [
+  {
+    id: 1,
+    title: "4 BHK House • 1533 Sq Ft",
+    subtitle: "Rural • Built 2016",
+    price: 884594,
+    agent: "Zacharie Imesson",
+  },
+  {
+    id: 2,
+    title: "3 BHK Apartment • 1200 Sq Ft",
+    subtitle: "Urban • Built 2019",
+    price: 645000,
+    agent: "Sarah Johnson",
+  },
+  {
+    id: 3,
+    title: "5 BHK Villa • 2800 Sq Ft",
+    subtitle: "Suburban • Built 2014",
+    price: 1250000,
+    agent: "Michael Lee",
+  },
+  {
+    id: 4,
+    title: "2 BHK Flat • 950 Sq Ft",
+    subtitle: "Urban • Built 2021",
+    price: 420000,
+    agent: "Emily Clark",
+  },
+  {
+    id: 5,
+    title: "4 BHK House • 1800 Sq Ft",
+    subtitle: "Rural • Built 2015",
+    price: 790000,
+    agent: "Daniel Moore",
+  },
+  {
+    id: 6,
+    title: "3 BHK Condo • 1350 Sq Ft",
+    subtitle: "Urban • Built 2018",
+    price: 610000,
+    agent: "Sophia Brown",
+  },
+  {
+    id: 7,
+    title: "6 BHK Villa • 3200 Sq Ft",
+    subtitle: "Suburban • Built 2012",
+    price: 1600000,
+    agent: "James Wilson",
+  },
+  {
+    id: 8,
+    title: "2 BHK Apartment • 980 Sq Ft",
+    subtitle: "Urban • Built 2020",
+    price: 450000,
+    agent: "Olivia Martin",
+  },
+  {
+    id: 9,
+    title: "4 BHK House • 2000 Sq Ft",
+    subtitle: "Rural • Built 2017",
+    price: 870000,
+    agent: "William Taylor",
+  },
+  {
+    id: 10,
+    title: "3 BHK Flat • 1400 Sq Ft",
+    subtitle: "Suburban • Built 2016",
+    price: 680000,
+    agent: "Ava Anderson",
+  },
+];
+
+const cardData = [
+  {
+    id: 1,
+    propertyType: "House",
+    bedrooms: 4,
+    bathrooms: 3,
+    squareFeet: 1533,
+    price: 884594,
+    neighborhood: "Rural",
+    agent: "Zacharie Imesson",
+  },
+  {
+    id: 2,
+    propertyType: "Apartment",
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFeet: 1200,
+    price: 645000,
+    neighborhood: "Urban",
+    agent: "Sarah Johnson",
+  },
+  {
+    id: 3,
+    propertyType: "Villa",
+    bedrooms: 5,
+    bathrooms: 4,
+    squareFeet: 2800,
+    price: 1250000,
+    neighborhood: "Suburban",
+    agent: "Michael Lee",
+  },
+  {
+    id: 4,
+    propertyType: "Flat",
+    bedrooms: 2,
+    bathrooms: 2,
+    squareFeet: 950,
+    price: 420000,
+    neighborhood: "Urban",
+    agent: "Emily Clark",
+  },
+  {
+    id: 5,
+    propertyType: "House",
+    bedrooms: 4,
+    bathrooms: 3,
+    squareFeet: 1800,
+    price: 790000,
+    neighborhood: "Rural",
+    agent: "Daniel Moore",
+  },
+  {
+    id: 6,
+    propertyType: "Condo",
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFeet: 1350,
+    price: 610000,
+    neighborhood: "Urban",
+    agent: "Sophia Brown",
+  },
+  {
+    id: 7,
+    propertyType: "Villa",
+    bedrooms: 6,
+    bathrooms: 5,
+    squareFeet: 3200,
+    price: 1600000,
+    neighborhood: "Suburban",
+    agent: "James Wilson",
+  },
+  {
+    id: 8,
+    propertyType: "Apartment",
+    bedrooms: 2,
+    bathrooms: 1,
+    squareFeet: 980,
+    price: 450000,
+    neighborhood: "Urban",
+    agent: "Olivia Martin",
+  },
+  {
+    id: 9,
+    propertyType: "House",
+    bedrooms: 4,
+    bathrooms: 3,
+    squareFeet: 2000,
+    price: 870000,
+    neighborhood: "Rural",
+    agent: "William Taylor",
+  },
+  {
+    id: 10,
+    propertyType: "Flat",
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFeet: 1400,
+    price: 680000,
+    neighborhood: "Suburban",
+    agent: "Ava Anderson",
+  },
+];
+
+export { rowData, colomunData, listData, cardData };
