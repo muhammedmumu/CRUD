@@ -3,6 +3,7 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import CardActions from '@mui/material/CardActions'
 import Button from '@mui/material/Button'
+import Buttons from '../Components/Buttons/Button';
 import Fetch from '../hook/Fetch.jsx';
 
 export default function CArd() {
@@ -16,6 +17,7 @@ export default function CArd() {
       </CardContent>
       <CardActions>
         <Button size="small">Learn More</Button>
+        <Buttons variant="outlined" color="primary" size="small">Learn More</Buttons>
       </CardActions>
     </Card>
   ));

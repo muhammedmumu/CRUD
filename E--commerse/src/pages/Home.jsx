@@ -9,6 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
+import Buttons from '../Components/Buttons/Button';
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import StorefrontIcon from '@mui/icons-material/Storefront';
@@ -97,8 +98,17 @@ export default function Home() {
             >
               Learn More
             </Button>
+            <Buttons
+              variant="contained"
+              color="primary"
+              size="small"
+              onClick={() => console.log('Login clicked')}
+            >
+              Login
+            </Buttons>
           </Box>
         </Container>
+
       </Box>
 
       {/* Features Section */}

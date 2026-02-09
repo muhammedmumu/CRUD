@@ -48,6 +48,15 @@ const overrides = {
       },
     },
   },
+  MuiButton: {
+    styleOverrides: {
+      root: {
+        padding: '8px 16px',
+        borderRadius: '4px',
+        textTransform: 'none',
+      },
+    },
+  },
 };
 
 export default overrides;
