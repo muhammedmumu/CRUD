@@ -22,7 +22,7 @@ export default function CArd() {
     </Card>
   ));
   return (
-    <div style={{ display: 'flex', gap: '16px', height: '100%', alignItems: 'center' }}>
+    <div style={{ display: 'flex', gap: '16px', flexWrap: "wrap", height: '100%', alignItems: 'center' }}>
       {content}
     </div>
 
