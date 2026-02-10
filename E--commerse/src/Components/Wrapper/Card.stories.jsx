@@ -1,5 +1,3 @@
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
@@ -7,20 +5,11 @@ import Tooltip from '@mui/material/Tooltip';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import Buttons from '../../Components/Buttons/Button';
-import theme from '../../Theme/index';
 import CardWrapper from './Card';
 
 export default {
   title: 'Wrapper/Card',
   component: CardWrapper,
-  decorators: [
-    (Story) => (
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Story />
-      </ThemeProvider>
-    ),
-  ],
   parameters: {
     layout: 'centered',
   },
